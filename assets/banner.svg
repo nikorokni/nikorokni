@@ -1,0 +1,53 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070B18"/>
+      <stop offset="0.52" stop-color="#10162D"/>
+      <stop offset="1" stop-color="#080D1B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="300" y1="72" x2="870" y2="286" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#46E6FF"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#FF4FD8"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 182) rotate(90) scale(196)">
+      <stop stop-color="#7C3AED" stop-opacity="0.42"/>
+      <stop offset="0.55" stop-color="#06B6D4" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#070B18" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#99A7D4" stroke-opacity="0.07"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#orb)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="27" stroke="url(#accent)" stroke-opacity="0.5" stroke-width="2"/>
+
+  <g opacity="0.82">
+    <path d="M805 249C862 210 897 128 952 139C1004 149 1013 234 1062 221C1105 209 1111 156 1177 126" stroke="url(#accent)" stroke-width="3"/>
+    <path d="M805 267C870 240 900 175 956 190C1004 203 1023 270 1073 253C1119 237 1125 191 1177 174" stroke="#46E6FF" stroke-opacity="0.24" stroke-width="2"/>
+    <path d="M821 111L907 80L981 124L1072 72L1151 112" stroke="#B38BFF" stroke-opacity="0.34"/>
+    <circle cx="907" cy="80" r="7" fill="#46E6FF" filter="url(#glow)"/>
+    <circle cx="981" cy="124" r="7" fill="#8B5CF6" filter="url(#glow)"/>
+    <circle cx="1072" cy="72" r="7" fill="#FF4FD8" filter="url(#glow)"/>
+    <circle cx="1062" cy="221" r="6" fill="#46E6FF" filter="url(#glow)"/>
+  </g>
+
+  <g transform="translate(72 62)">
+    <rect width="156" height="34" rx="17" fill="#151D39" stroke="#46E6FF" stroke-opacity="0.45"/>
+    <circle cx="18" cy="17" r="5" fill="#46E6FF" filter="url(#glow)"/>
+    <text x="32" y="22" fill="#C9F8FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="1.4">LONDON • UK</text>
+  </g>
+
+  <text x="72" y="158" fill="#F8FAFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="55" font-weight="800" letter-spacing="1.5">NIKO ROKNI</text>
+  <text x="72" y="213" fill="url(#accent)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="55" font-weight="800" letter-spacing="1.5">LAMOUKI</text>
+  <text x="76" y="258" fill="#AFBADD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="500" letter-spacing="2.1">PRODUCT  ×  DEFI  ×  AI RESEARCH</text>
+  <rect x="76" y="282" width="568" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="76" y="317" fill="#7E8AAF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" letter-spacing="1.25">BUILDING INTELLIGENT, RESILIENT FINANCIAL SYSTEMS</text>
+</svg>

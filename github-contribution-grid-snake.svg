@@ -1,0 +1,18 @@
+<svg width="1200" height="190" viewBox="0 0 1200 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="190"><stop stop-color="#F8FAFF"/><stop offset="1" stop-color="#EEF1FF"/></linearGradient>
+    <linearGradient id="path" x1="90" y1="140" x2="1110" y2="48"><stop stop-color="#0891B2"/><stop offset="0.52" stop-color="#7C3AED"/><stop offset="1" stop-color="#DB2777"/></linearGradient>
+  </defs>
+  <rect width="1200" height="190" rx="22" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="188" rx="21" stroke="#CBD3EE" stroke-width="2"/>
+  <g opacity="0.5" fill="#B9C4E4">
+    <rect x="72" y="111" width="13" height="13" rx="3"/><rect x="94" y="128" width="13" height="13" rx="3"/><rect x="116" y="94" width="13" height="13" rx="3"/><rect x="138" y="111" width="13" height="13" rx="3"/>
+    <rect x="170" y="79" width="13" height="13" rx="3"/><rect x="192" y="111" width="13" height="13" rx="3"/><rect x="214" y="94" width="13" height="13" rx="3"/><rect x="236" y="62" width="13" height="13" rx="3"/>
+    <rect x="898" y="111" width="13" height="13" rx="3"/><rect x="920" y="79" width="13" height="13" rx="3"/><rect x="942" y="94" width="13" height="13" rx="3"/><rect x="964" y="62" width="13" height="13" rx="3"/>
+    <rect x="996" y="94" width="13" height="13" rx="3"/><rect x="1018" y="128" width="13" height="13" rx="3"/><rect x="1040" y="111" width="13" height="13" rx="3"/><rect x="1062" y="79" width="13" height="13" rx="3"/>
+  </g>
+  <path d="M74 133C160 155 215 63 306 94C396 125 430 147 517 116C610 83 637 48 732 72C824 95 878 143 956 110C1023 82 1060 43 1120 58" stroke="url(#path)" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="1120" cy="58" r="8" fill="#DB2777"/>
+  <text x="600" y="38" text-anchor="middle" fill="#202944" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">CONTRIBUTION ACTIVITY • GENERATING LIVE VIEW</text>
+  <text x="600" y="174" text-anchor="middle" fill="#7180A8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="1.2">THE AUTOMATED SNAKE WILL REPLACE THIS PREVIEW AFTER ITS FIRST RUN</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg width="1200" height="590" viewBox="0 0 1200 590" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1200" y2="590" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090E1D"/>
+      <stop offset="1" stop-color="#11182F"/>
+    </linearGradient>
+    <linearGradient id="line" x1="160" y1="80" x2="1040" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#35D7FF"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#FF55D8"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity="0.42"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10V0Z" fill="#7E78EE"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="590" rx="28" fill="url(#panel)"/>
+  <rect x="1" y="1" width="1198" height="588" rx="27" stroke="#39466E" stroke-width="2"/>
+  <text x="600" y="48" text-anchor="middle" fill="#F4F7FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="700" letter-spacing="1.8">RESEARCH UNIVERSE</text>
+  <text x="600" y="73" text-anchor="middle" fill="#7582AA" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="1.1">LOCAL-CURRENCY DEFI UNDER MACROECONOMIC STRESS</text>
+
+  <path d="M600 155V190" stroke="#7E78EE" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M600 272V307H218V337" stroke="#7E78EE" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M600 272V337" stroke="#7E78EE" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M600 272V307H982V337" stroke="#7E78EE" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M218 427V458H600V485" stroke="#7E78EE" stroke-width="3"/>
+  <path d="M600 427V485" stroke="#7E78EE" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M982 427V458H600" stroke="#7E78EE" stroke-width="3"/>
+
+  <g filter="url(#shadow)">
+    <rect x="410" y="92" width="380" height="64" rx="18" fill="#13213A" stroke="#35D7FF"/>
+    <text x="600" y="119" text-anchor="middle" fill="#DDF9FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">High Inflation &amp; Currency Depreciation</text>
+    <text x="600" y="142" text-anchor="middle" fill="#8CA6C8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">emerging-market macroeconomic pressure</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="410" y="200" width="380" height="73" rx="18" fill="#1A183B" stroke="#8B5CF6"/>
+    <text x="600" y="230" text-anchor="middle" fill="#F0E9FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">Local-Currency DeFi Lending</text>
+    <text x="600" y="254" text-anchor="middle" fill="#A9A0CB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">stablecoin debt • collateral • liquidity • oracles</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="68" y="338" width="300" height="90" rx="18" fill="#102338" stroke="#35D7FF"/>
+    <text x="218" y="371" text-anchor="middle" fill="#E0FBFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">Debt Erosion</text>
+    <text x="218" y="397" text-anchor="middle" fill="#89A6C2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">borrower incentives &amp; real returns</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="450" y="338" width="300" height="90" rx="18" fill="#1A183B" stroke="#8B5CF6"/>
+    <text x="600" y="371" text-anchor="middle" fill="#F0E9FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">Protocol Solvency</text>
+    <text x="600" y="397" text-anchor="middle" fill="#A9A0CB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">liquidation &amp; collateral stress</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="832" y="338" width="300" height="90" rx="18" fill="#271734" stroke="#FF55D8"/>
+    <text x="982" y="371" text-anchor="middle" fill="#FFE5FA" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">Peg Stability</text>
+    <text x="982" y="397" text-anchor="middle" fill="#C3A0BE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">LPs • arbitrage • secondary markets</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="360" y="486" width="480" height="72" rx="20" fill="#171B3A" stroke="url(#line)" stroke-width="2"/>
+    <text x="600" y="516" text-anchor="middle" fill="#F5F0FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">Adaptive Governance &amp; Automated Risk</text>
+    <text x="600" y="541" text-anchor="middle" fill="#A69FC8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">oracle-aware controls • dynamic parameters • resilient design</text>
+  </g>
+</svg>

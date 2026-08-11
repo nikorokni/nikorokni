@@ -16,7 +16,7 @@
 
 ## 🧠 About Me
 
-I am a **Product Manager, lecturer, and researcher** working where **decentralized finance, artificial intelligence, data, and financial infrastructure** meet. I combine hands-on product leadership with reproducible research to turn difficult financial-system questions into models, experiments, and products that people can actually use.
+I am a **Product Manager, (HPL)lecturer, and researcher** working where **decentralized finance, artificial intelligence, data, and financial infrastructure** meet. I combine hands-on product leadership with reproducible research to turn difficult financial-system questions into models, experiments, and products that people can actually use.
 
 - 🎓 **MSc Big Data Technologies with Distinction**, University of East London
 - 👩‍🏫 **Hourly Paid Lecturer at UEL**, translating technical ideas into practical learning
